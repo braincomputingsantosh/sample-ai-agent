@@ -72,3 +72,8 @@ Example response for a completed task:
   ]
 }
 ```
+You can also run ```python agent.py``` the agent as a stand alone. Make sure to create and setup the .env file
+```
+agent = AIAgent()
+results = agent.execute_task("Research the latest developments in quantum computing")
+```
